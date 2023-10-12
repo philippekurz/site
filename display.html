@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test display</title>
+
+    <style>
+        .bordure {
+            border: solid 1px red;
+        }
+        #bloc {
+            padding: 30px;
+        }
+        #test {
+            color: red;
+            height: 500px;
+            margin: 30px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body class="bordure">
+    <!-- La propriété display permet de contrôler le positionnement des élements par rapport à leur environnement. Valeurs possibles block, inline, inline-block -->
+
+    <!-- Eléments avec display = block -->
+    <h1 class="bordure">Titre</h1>
+    <h2 class="bordure">Sous-titre</h2>
+    <p id="bloc" class="bordure">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam id animi libero dolores nostrum maxime impedit ipsam sunt totam. Numquam ipsum minima perspiciatis, incidunt exercitationem debitis dolor aut quidem iure.</p>
+    <div class="bordure">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolore. Soluta, ipsum ratione. Delectus praesentium quae, ipsam accusantium dignissimos vel iusto doloremque quos modi voluptas illum consequuntur quam minus non!</div>
+    <ul class="bordure">
+        <li class="bordure">Item</li>
+    </ul>
+    <address class="bordure">Adresse</address>
+
+    <!-- Eléments avec display = inline -->
+    Lorem ipsum dolor sit <a href="#">amet</a> consectetur adipisicing elit. Neque, dolor quisquam consequuntur facilis rem, laborum quasi quibusdam, ducimus cumque quo quod  cum excepturi enim perferendis <span id="test" class="bordure">consequatur laboriosam</span> ex corporis. Porro.
+    <!-- <img src="images/panda.jpg" /> -->
+</body>
+</html>
