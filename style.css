@@ -13,9 +13,27 @@ p {
     color: cadetblue;
 }
 
-ul {
-    color: cornflowerblue;
+nav {
+    background-color: cornflowerblue;
+
 }
+/* Sélecteur multiple : les liste (ul) situées dans une nav*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* Sélecteur multiple : les liens (a) situés dans une nav*/
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* .gras = sélecteur (type class) */
 .gras {
@@ -37,6 +55,11 @@ ul {
 .rouge {
     color: red;
 }
+
+.bordure {
+    border: solid 0px red;
+}
+
 /* #paragraphe2 = sélecteur (type id) */
 #paragraphe2 {
     font-size: 20px;
