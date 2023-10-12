@@ -1,3 +1,44 @@
+/* body = sélecteur (type élément) */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* indique la police de caractères (font) */
+    color:dimgrey; /* Couleur du texte */
+    font-size: 16px; /* Taille de la font */
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: cadetblue;
+}
+
+ul {
+    color: cornflowerblue;
+}
+
+/* .gras = sélecteur (type class) */
+.gras {
+    font-weight: bold;
+}
+
+.barre {
+    text-decoration: line-through;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.rouge {
+    color: red;
+}
+/* #paragraphe2 = sélecteur (type id) */
+#paragraphe2 {
+    font-size: 20px;
+    letter-spacing: 3px;
 }
